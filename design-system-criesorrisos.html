@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design system | Crie Sorrisos</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --teal-500:#00A8C0; --teal-700:#066E80; --teal-900:#0C3A47;
+  --aqua-50:#F4FBFB; --aqua-100:#E3F6F7;
+  --magenta-600:#B83C86; --magenta-700:#9A2E6E; --magenta-100:#FBE4F0;
+  --yellow-400:#F6DF4F;
+  --ink:#0C2F3A; --muted:#3F5F6B; --line:#CFE6E8;
+  --wa-500:#25D366; --alert-600:#C23A2B;
+  --font-display:'Fredoka',system-ui,sans-serif;
+  --font-body:'Nunito',-apple-system,'Segoe UI',sans-serif;
+  --r-field:16px; --r-card:24px; --r-pill:999px;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--aqua-50);color:var(--ink);font-family:var(--font-body);font-size:17px;line-height:1.65}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--font-display);margin:0}
+h1{font-size:clamp(34px,6vw,56px);line-height:1.08;font-weight:700}
+h2{font-size:32px;font-weight:600;margin-bottom:8px}
+header{background:var(--teal-900);color:#fff;padding:56px 0 48px}
+header p{max-width:40rem;color:#CBEBEF}
+header .tag{display:inline-block;background:var(--yellow-400);color:var(--ink);border-radius:var(--r-pill);padding:4px 14px;font-weight:700;font-size:14px;margin-bottom:16px}
+section{padding:52px 0;border-bottom:2px solid var(--line)}
+.sub{color:var(--muted);margin:0 0 26px;max-width:44rem}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.sw{background:#fff;border:2px solid var(--line);border-radius:var(--r-card);overflow:hidden;cursor:pointer;text-align:left;color:inherit;font:inherit;padding:0}
+.sw:focus-visible,.btn:focus-visible,input:focus-visible,select:focus-visible,.chip:focus-visible{outline:3px solid var(--magenta-600);outline-offset:3px}
+.sw i{display:block;height:84px}
+.sw span{display:block;padding:12px 16px}
+.sw b{display:block;font-size:15px}
+.sw code{font-size:13px;color:var(--teal-700);font-weight:700}
+.sw small{display:block;color:var(--muted);font-size:13px;line-height:1.4;margin-top:4px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 20px;border-radius:var(--r-pill);font-weight:700;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.on{opacity:1}
+.type-row{display:grid;grid-template-columns:150px 1fr;gap:20px;align-items:baseline;padding:18px 0;border-top:2px solid var(--line)}
+.type-row small{color:var(--muted);font-weight:700;font-size:13px}
+@media (max-width:640px){.type-row{grid-template-columns:1fr;gap:4px}}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 30px;border-radius:var(--r-pill);font:700 16px var(--font-body);text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--magenta-600);color:#fff;box-shadow:0 10px 24px rgba(184,60,134,.25)}
+.btn-primary:hover{background:var(--magenta-700)}
+.btn-wa{background:var(--wa-500);color:var(--ink)}
+.btn-ghost{background:transparent;color:var(--teal-900);border-color:var(--teal-900)}
+.row{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+label{display:block;font-size:15px;font-weight:700;margin-bottom:6px}
+input,select{width:100%;height:56px;background:#fff;color:var(--ink);border:2px solid var(--line);border-radius:var(--r-field);padding:0 16px;font:400 17px var(--font-body)}
+input:focus,select:focus{border-color:var(--teal-500);box-shadow:0 0 0 4px rgba(0,168,192,.2)}
+input.err{border-color:var(--alert-600)}
+.errmsg{color:var(--alert-600);font-size:14px;margin-top:6px;font-weight:600}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:#fff;border:2px solid var(--line);border-radius:var(--r-card);padding:26px;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--teal-500);transform:translateY(-4px)}
+.card .dot{width:48px;height:48px;border-radius:16px;background:var(--aqua-100);display:grid;place-items:center;margin-bottom:14px;font-size:22px}
+.card h3{font-size:22px;margin-bottom:8px}
+.card p{margin:0;color:var(--muted);font-size:16px}
+.pend{display:inline-block;border:1px dashed currentColor;border-radius:6px;padding:0 8px;font-size:.84em}
+.wave{height:70px;background:linear-gradient(var(--yellow-400),var(--yellow-400)) 0 0/100% 33%,linear-gradient(var(--magenta-600),var(--magenta-600)) 0 50%/100% 33%,linear-gradient(var(--teal-500),var(--teal-500)) 0 100%/100% 33%;background-repeat:no-repeat;border-radius:var(--r-card)}
+pre{background:#fff;border:2px solid var(--line);border-radius:var(--r-card);padding:20px;overflow:auto;font:14px/1.6 ui-monospace,Consolas,monospace}
+ul.rules{padding-left:20px;color:var(--muted)}
+ul.rules li{margin-bottom:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="tag">Connect Alpha · Design system</span>
+    <h1>Crie Sorrisos Odontologia</h1>
+    <p style="margin-top:14px">Partimos da logo (hashtag turquesa, sorriso magenta, carinha amarela) e da faixa da fachada. Alegre para a criança, confiável para o pai e a mãe. Clique numa amostra para copiar o código.</p>
+  </div>
+</header>
+<main>
+<section aria-labelledby="t-cores"><div class="wrap">
+  <h2 id="t-cores">1. Cores</h2>
+  <p class="sub">O verde do WhatsApp é exclusivo do botão de WhatsApp e leva texto escuro. O amarelo nunca é cor de texto.</p>
+  <div class="swatches" id="sw"></div>
+</div></section>
+
+<section aria-labelledby="t-tipo"><div class="wrap">
+  <h2 id="t-tipo">2. Tipografia</h2>
+  <p class="sub">Fredoka nos títulos, redonda e simpática. Nunito no corpo, fácil de ler.</p>
+  <div class="type-row"><small>H1 · 56/34 · 700</small><h1>Um olhar especializado para o crescimento saudável do seu filho.</h1></div>
+  <div class="type-row"><small>H2 · 42/30 · 600</small><h2 style="font-size:clamp(30px,5vw,42px);line-height:1.12">Quantos anos tem o seu filho?</h2></div>
+  <div class="type-row"><small>H3 · 22/19 · 600</small><h3 style="font-size:22px">Odontopediatria</h3></div>
+  <div class="type-row"><small>Corpo · 18/16 · 400</small><p style="margin:0;max-width:38rem">Do bebê à adolescência, no mesmo lugar, com um espaço pensado para as crianças.</p></div>
+</div></section>
+
+<section aria-labelledby="t-comp"><div class="wrap">
+  <h2 id="t-comp">3. Componentes</h2>
+  <p class="sub">Botões em pílula, campos grandes e cards de cantos bem arredondados.</p>
+  <h3 style="font-size:18px;margin-bottom:14px">Botões</h3>
+  <div class="row" style="margin-bottom:36px">
+    <a class="btn btn-primary" href="#t-comp">Agendar avaliação</a>
+    <a class="btn btn-wa" href="#t-comp">Chamar no WhatsApp</a>
+    <a class="btn btn-ghost" href="#t-comp">Ver especialidades</a>
+  </div>
+  <h3 style="font-size:18px;margin-bottom:14px">Campos</h3>
+  <div class="grid3" style="margin-bottom:36px">
+    <div><label for="f1">Nome da criança</label><input id="f1" placeholder="Como ela se chama?"></div>
+    <div><label for="f2">Como podemos ajudar</label><select id="f2"><option>Primeira avaliação</option></select></div>
+    <div><label for="f3">Idade (com erro)</label><input id="f3" class="err" aria-invalid="true"><div class="errmsg">Informe a idade da criança.</div></div>
+  </div>
+  <h3 style="font-size:18px;margin-bottom:14px">Cards</h3>
+  <div class="grid3" style="margin-bottom:36px">
+    <article class="card"><div class="dot" aria-hidden="true">🦷</div><h3>Odontopediatria</h3><p>Cuidado com os dentes e a boca de bebês, crianças e adolescentes.</p></article>
+    <article class="card"><div class="dot" aria-hidden="true">😁</div><h3>Ortodontia</h3><p>Cuida do alinhamento dos dentes e da mordida. <span class="pend">[A CONFIRMAR]</span></p></article>
+  </div>
+  <h3 style="font-size:18px;margin-bottom:14px">Forma assinatura: as ondas da fachada</h3>
+  <div class="wave" role="img" aria-label="Faixas amarela, magenta e turquesa"></div>
+</div></section>
+
+<section aria-labelledby="t-est"><div class="wrap">
+  <h2 id="t-est">4. Estética</h2>
+  <ul class="rules">
+    <li>Raios: 16 px nos campos, 24 px nos cards, 999 px nos botões. Foto do hero em arco.</li>
+    <li>Sombras suaves e coloridas (turquesa a 15%), nunca pretas pesadas.</li>
+    <li>Espaçamento em múltiplos de 8: 8, 16, 24, 32, 48, 64, 96 px.</li>
+    <li>As ondas da fachada separam as seções.</li>
+    <li>Movimento sutil (bolhas, ondas, brilho no fim da escovação), desligado em <code>prefers-reduced-motion</code>.</li>
+  </ul>
+</div></section>
+
+<section aria-labelledby="t-wa"><div class="wrap">
+  <h2 id="t-wa">5. Conversão para WhatsApp</h2>
+  <ul class="rules">
+    <li>CTA no topo, no hero, na ferramenta de idade (com a idade na mensagem), nas especialidades, na clínica, no formulário e no fim.</li>
+    <li>O formulário coleta nome da criança, idade e interesse, e abre o WhatsApp com a mensagem pronta.</li>
+    <li>Autoridade: CRO e EAPO visíveis, nota 5,0 do Google e fotos reais.</li>
+    <li>Publicidade odontológica (CFO): sem preço, promoção, antes e depois ou promessa de resultado.</li>
+  </ul>
+</div></section>
+
+<section aria-labelledby="t-css"><div class="wrap">
+  <h2 id="t-css">Tokens prontos (CSS)</h2>
+  <pre id="css"></pre>
+</div></section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite">Copiado</div>
+<script>
+(function(){
+  var cores=[
+    ['Turquesa da marca','--teal-500','#00A8C0','Formas e ícones (texto escuro por cima)'],
+    ['Turquesa texto','--teal-700','#066E80','Links e destaques (5,9:1)'],
+    ['Turquesa escuro','--teal-900','#0C3A47','Seções escuras e rodapé'],
+    ['Aqua muito claro','--aqua-50','#F4FBFB','Fundo padrão'],
+    ['Aqua claro','--aqua-100','#E3F6F7','Seção alternada'],
+    ['Magenta (ação)','--magenta-600','#B83C86','Botão primário (5,2:1)'],
+    ['Magenta escuro','--magenta-700','#9A2E6E','Hover do botão'],
+    ['Magenta claro','--magenta-100','#FBE4F0','Fundos suaves'],
+    ['Amarelo','--yellow-400','#F6DF4F','Toques de alegria, nunca texto'],
+    ['Tinta','--ink','#0C2F3A','Texto de corpo'],
+    ['Texto secundário','--muted','#3F5F6B','Apoio'],
+    ['Linha','--line','#CFE6E8','Bordas'],
+    ['WhatsApp','--wa-500','#25D366','Exclusivo do botão de WhatsApp'],
+    ['Alerta','--alert-600','#C23A2B','Erro de formulário']
+  ];
+  var host=document.getElementById('sw');
+  cores.forEach(function(c){
+    var b=document.createElement('button');b.className='sw';b.type='button';
+    b.setAttribute('aria-label','Copiar '+c[0]+' '+c[2]);
+    b.innerHTML='<i style="background:'+c[2]+'"></i><span><b>'+c[0]+'</b><code>'+c[2]+'</code><small>'+c[1]+' · '+c[3]+'</small></span>';
+    b.addEventListener('click',function(){
+      var t=document.getElementById('toast');
+      function ok(){t.textContent='Copiado: '+c[2];t.classList.add('on');setTimeout(function(){t.classList.remove('on')},1400)}
+      if(navigator.clipboard){navigator.clipboard.writeText(c[2]).then(ok,ok)}else{ok()}
+    });
+    host.appendChild(b);
+  });
+  document.getElementById('css').textContent=':root{\n'+cores.map(function(c){return '  '+c[1]+':'+c[2]+';'}).join('\n')+'\n  --font-display:\'Fredoka\',system-ui,sans-serif;\n  --font-body:\'Nunito\',-apple-system,\'Segoe UI\',sans-serif;\n  --r-field:16px; --r-card:24px; --r-pill:999px;\n}';
+})();
+</script>
+</body>
+</html>

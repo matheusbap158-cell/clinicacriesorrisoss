@@ -1,0 +1,195 @@
+COPY - CRIE SORRISOS ODONTOLOGIA (Varginha/MG)
+Landing page de demonstração. Público: pais e responsáveis de bebês, crianças e adolescentes. Tom: acolhedor, leve e seguro (quem decide é o adulto, quem sente é a criança).
+Dados reais usados: Google Maps (5,0, 33 avaliações, endereço, telefone, "empresa de empreendedoras"), bio do Instagram (EAPO-14298 e RT CRO-MG 14716), texto da placa da fachada (especialidades, "olhar especializado e integrado para o crescimento saudável, do bebê à adolescência", "Seu maior patrimônio em nossas mãos. Seu filho!"), três avaliações do Google, fotos enviadas pelo cliente.
+Cuidado com a publicidade odontológica (CFO): sem preço, sem promoção, sem antes e depois, sem promessa de resultado, sem "melhor" ou "o único". Avaliações usadas só as que falam de atendimento e espaço, não de resultado de tratamento.
+Estrutura: a mesma lógica das demos anteriores (hero, prova, serviços, como funciona, avaliações, contato), com duas ferramentas para surpreender: "Quantos anos tem o seu filho?" e "Hora de escovar".
+
+=====================================================
+MENU
+Início | Por onde começar | Especialidades | A clínica | Primeira visita | Avaliações | Contato
+Botão do topo: Agendar avaliação
+
+=====================================================
+1. HERO
+Selo: 5,0 no Google · 33 avaliações · Varginha/MG
+Título: Um olhar especializado para o crescimento saudável do seu filho.
+Subtítulo: Do bebê à adolescência, no mesmo lugar.
+Texto: Odontopediatria, ortopedia dos maxilares, ortodontia, fonoaudiologia e fisioterapia, com um olhar integrado e um espaço pensado para as crianças.
+Botão principal: Agendar avaliação pelo WhatsApp
+Botão secundário: Quantos anos tem o seu filho?
+Adesivo na foto: Seu maior patrimônio em nossas mãos. Seu filho!
+Linha de apoio: Responsável técnico: [NOME A CONFIRMAR] · CRO-MG 14716 · EAPO 14298
+
+=====================================================
+2. FAIXA DE NÚMEROS (só dados reais)
+- 5,0 | nota no Google
+- 33 | avaliações no Google
+- 5 | especialidades na mesma clínica
+- Bebê ao adolescente | quem a clínica atende
+
+=====================================================
+3. POR ONDE COMEÇAR (ferramenta: quantos anos tem o seu filho)
+Seção: Por onde começar
+Título: Quantos anos tem o seu filho?
+Subtítulo: Arraste e veja quais áreas costumam acompanhar cada fase do crescimento.
+Rótulo do controle: Idade do seu filho
+Texto de idade: [N] anos (menos de 1 ano aparece como "<1 ano (bebê)")
+Faixa 0 a 3 anos - Primeiros anos
+  Texto: Fase de adaptação e de orientação aos pais sobre higiene, alimentação e hábitos. [CONFIRMAR COM A DENTISTA]
+  Áreas: Odontopediatria · Fonoaudiologia
+Faixa 4 a 8 anos - Infância
+  Texto: Fase dos dentes de leite e da troca dos primeiros dentes. Acompanhamento da saúde bucal e do crescimento. [CONFIRMAR COM A DENTISTA]
+  Áreas: Odontopediatria · Fonoaudiologia · Ortopedia dos maxilares
+Faixa 9 a 12 anos - Pré-adolescência
+  Texto: Fase de troca de dentes e de crescimento acelerado dos ossos da face. [CONFIRMAR COM A DENTISTA]
+  Áreas: Odontopediatria · Ortopedia dos maxilares · Ortodontia · Fisioterapia
+Faixa 13 a 18 anos - Adolescência
+  Texto: Fase de dentes permanentes e de acompanhamento da mordida. [CONFIRMAR COM A DENTISTA]
+  Áreas: Odontopediatria · Ortodontia · Fisioterapia
+Aviso: A indicação de cada área é feita pela equipe, na avaliação. Esta ferramenta só orienta por onde começar. [FAIXAS DE IDADE A REVISAR PELA EQUIPE ANTES DE PUBLICAR]
+Botão: Agendar avaliação para o meu filho de [N] anos
+Mensagem do WhatsApp: Olá! Vi o site da Crie Sorrisos. Meu filho(a) tem [N] anos e gostaria de agendar uma avaliação.
+
+=====================================================
+4. ESPECIALIDADES
+Seção: Especialidades
+Título: Cinco áreas, um só olhar.
+Subtítulo: Um olhar especializado e integrado para o crescimento saudável, do bebê à adolescência.
+Card 1 - Odontopediatria
+  Texto: Cuidado com os dentes e a boca de bebês, crianças e adolescentes, num ambiente pensado para eles.
+Card 2 - Ortopedia dos maxilares
+  Texto: Acompanha o crescimento dos ossos da face e dos maxilares enquanto a criança se desenvolve. [DETALHE A CONFIRMAR COM A DENTISTA]
+Card 3 - Ortodontia
+  Texto: Cuida do alinhamento dos dentes e da mordida. [TIPOS DE APARELHO E ALINHADORES A CONFIRMAR]
+Card 4 - Fonoaudiologia
+  Texto: Cuida de fala, mastigação, deglutição e respiração. [DETALHE E REGISTRO (CREFONO) A CONFIRMAR]
+Card 5 - Fisioterapia
+  Texto: Cuida de postura e movimento ligados ao desenvolvimento. [DETALHE E REGISTRO (CREFITO) A CONFIRMAR]
+Botão: Falar com a clínica pelo WhatsApp
+
+=====================================================
+5. A CLÍNICA
+Seção: A clínica
+Título: Uma clínica pensada para as crianças.
+Subtítulo: Espaço Kids, brinquedos na sala de espera e acessibilidade, como as famílias contam nas avaliações do Google.
+Legenda foto 1: Fachada da clínica, na R. Colômbia, 195, em Varginha
+Legenda foto 2: Espaço da clínica [LEGENDA A CONFIRMAR COM A CLÍNICA]
+Nota: [AUTORIZAÇÃO DE USO DAS FOTOS A CONFIRMAR]
+Destaques:
+- Espaço Kids
+- Brinquedos na sala de espera
+- Acessível, segundo as avaliações
+Botão: Quero conhecer a clínica
+
+=====================================================
+6. HORA DE ESCOVAR (ferramenta: temporizador)
+Seção: Hora de escovar
+Título: Escovar com a Crie Sorrisos.
+Subtítulo: Dois minutos, quatro cantinhos, 30 segundos em cada um. Aperte o botão e escove junto com a gente.
+Botão: Começar a escovar
+Passos: Em cima, lado direito | Em cima, lado esquerdo | Embaixo, lado direito | Embaixo, lado esquerdo
+Fim: Dentes brilhando! Boa escovação.
+Aviso: A orientação de escovação é geral. A equipe ensina a melhor técnica para cada criança na consulta. [TEMPO E TÉCNICA A CONFIRMAR COM A EQUIPE]
+Botão final: Agendar uma avaliação
+
+=====================================================
+7. PRIMEIRA VISITA
+Seção: Primeira visita
+Título: Como é a primeira visita.
+Subtítulo: Do primeiro contato ao primeiro sorriso na cadeira.
+Passo 01 - Você chama no WhatsApp: Conte a idade do seu filho e o que você gostaria de saber. A equipe orienta e combina o horário.
+Passo 02 - A criança conhece a clínica: Com calma e sem pressa, ela conhece o espaço e a equipe. [ROTEIRO DA PRIMEIRA VISITA A CONFIRMAR]
+Passo 03 - Avaliação: A profissional avalia e explica aos pais o que é preciso, em linguagem simples. [A CONFIRMAR]
+Passo 04 - Plano de cuidado: Você sai sabendo os próximos passos e o que cada área da clínica pode fazer. [FORMA DE ACOMPANHAMENTO A CONFIRMAR]
+Botão: Agendar avaliação
+
+=====================================================
+8. AVALIAÇÕES
+Seção: Avaliações
+Título: O que as famílias contam.
+Subtítulo: Nota 5,0 no Google, com 33 avaliações.
+Avaliação 1 (Maria L. C., avaliação no Google): "Ótima experiência! Profissionais excelentes, sempre com muito cuidado e atenção com vc! Indico muito!"
+Avaliação 2 (Taise O., avaliação no Google): "Atendimento excelente, minha menina amou!!"
+Botão: Ver todas as avaliações no Google
+[AUTORIZAÇÃO PARA USO DAS AVALIAÇÕES E REGRAS DO CFO A CONFERIR] (nomes reduzidos às iniciais; o resumo do Maps "Clínica bonita com espaço Kids e acessível" não é avaliação de pessoa e não foi usado como depoimento)
+
+=====================================================
+9. QUEM CUIDA
+Seção: Quem cuida do seu filho
+Título: Uma clínica de mulheres empreendedoras.
+Texto: A Crie Sorrisos se identifica como uma empresa de empreendedoras. [NOMES, FORMAÇÃO E CRO DAS PROFISSIONAIS A CONFIRMAR]
+Registro: Responsável técnico: [NOME DA RESPONSÁVEL TÉCNICA A CONFIRMAR] · CRO-MG 14716 · EAPO 14298
+Foto: [FOTO DA EQUIPE A CONFIRMAR]
+Botão: Falar com a equipe
+
+=====================================================
+10. AGENDAR (formulário que abre o WhatsApp)
+Seção: Agendar
+Título: Vamos conhecer o seu filho?
+Subtítulo: Preencha e continue a conversa pelo WhatsApp, já com as informações da criança.
+Campos: Seu nome (responsável) | Nome da criança | Idade da criança | Como podemos ajudar (primeira avaliação, odontopediatria, ortopedia dos maxilares, ortodontia, fonoaudiologia, fisioterapia, ainda não sei) | Melhor período (manhã, tarde, tanto faz) | Detalhes (opcional)
+Botão: Enviar pelo WhatsApp
+Aviso: Ao enviar, abrimos o WhatsApp com a sua mensagem pronta. Nenhum dado fica guardado neste site.
+
+=====================================================
+11. DÚVIDAS
+Pergunta: Com que idade posso levar meu filho?
+Resposta: A clínica atende do bebê ao adolescente. [IDADE RECOMENDADA PARA A PRIMEIRA CONSULTA A CONFIRMAR]
+Pergunta: Meu filho tem medo de dentista. E agora?
+Resposta: A clínica é pensada para as crianças, com espaço Kids e brinquedos. [COMO A EQUIPE LIDA COM O MEDO A CONFIRMAR]
+Pergunta: Posso acompanhar a consulta?
+Resposta: [POLÍTICA DE ACOMPANHANTE A CONFIRMAR]
+Pergunta: Vocês atendem por convênio?
+Resposta: [CONVÊNIOS A CONFIRMAR]
+Pergunta: Quanto custa?
+Resposta: O valor depende do que a avaliação indicar. [VALORES E FORMAS DE PAGAMENTO A CONFIRMAR]
+Pergunta: Como agendo?
+Resposta: Pelo formulário desta página ou direto no WhatsApp (35) 98476-0864.
+
+=====================================================
+12. CONTATO
+Seção: Contato
+Título: Venha nos conhecer.
+Endereço: R. Colômbia, 195 · Vila Pinto · Varginha/MG · CEP 37010-650
+WhatsApp: (35) 98476-0864
+Horário: [HORÁRIO A CONFIRMAR]
+Instagram: @clinicacriesorrisos
+Botão: Chamar no WhatsApp
+
+=====================================================
+13. CHAMADA FINAL
+Título: Seu maior patrimônio em nossas mãos.
+Texto: Agende a avaliação e venha conhecer a Crie Sorrisos.
+Botão: Agendar avaliação pelo WhatsApp
+
+=====================================================
+RODAPÉ
+Crie Sorrisos Odontologia. Varginha/MG.
+Responsável técnico: [NOME A CONFIRMAR] · CRO-MG 14716 · EAPO 14298
+Contato: WhatsApp (35) 98476-0864 · Instagram @clinicacriesorrisos
+Endereço: R. Colômbia, 195 · Vila Pinto · Varginha/MG
+Site produzido por Connect Alpha
+
+=====================================================
+TEXTOS DE APOIO QUE EXISTEM SÓ NO SITE
+Mascote "Dentinho" (personagem criado pela agência para a demo; a clínica pode aprovar, trocar ou pedir a retirada): aparece no hero, na ferramenta de idade (com balão "Oi! Eu tenho N anos!", "Oi! Eu tenho 1 ano!" e "Oi! Sou um bebê!"), na jornada da primeira visita, na equipe e no fim. Veste uma roupa diferente por fase (chupeta, laço, fone, óculos).
+Faixa em movimento sob o hero: Odontopediatria, Ortopedia dos maxilares, Ortodontia, Fonoaudiologia, Fisioterapia.
+Temporizador de escovação: mapa da boca em 4 partes ("Parte 1 de 4" etc.), escova que se mexe na parte ativa.
+Primeira visita: percurso animado com o mascote andando pelas 4 etapas (mesmo texto).
+Equipe: cartão ilustrado com as etiquetas "CRO-MG 14716", "EAPO 14298" e "Empresa de empreendedoras" (em vez de foto; a foto da equipe segue como pendência).
+Título da seção de dúvidas: Perguntas frequentes. | Cartão nas especialidades: Ficou com alguma dúvida? Conte a idade do seu filho e a equipe orienta por onde começar. | Ao lado do formulário: Conte quem é a criança e quantos anos ela tem. A mensagem chega pronta no WhatsApp da clínica. A equipe responde e combina o melhor horário. | Exemplo do campo de idade: Ex.: 6 anos ou 8 meses
+
+=====================================================
+PENDÊNCIAS [A CONFIRMAR]
+1. Nome da responsável técnica, nomes, formação e CRO das profissionais; foto da equipe
+2. Faixas de idade e textos da ferramenta "Quantos anos tem o seu filho?" (a dentista revisa antes de publicar)
+3. Descrição de cada especialidade, tipos de aparelho e alinhadores (a memória da agência cita foco em aparelhos e alinhadores invisíveis, mas a placa da fachada fala de crescimento do bebê ao adolescente)
+4. Horário de atendimento, convênios, valores, política de acompanhante, idade recomendada para a primeira consulta
+5. Roteiro da primeira visita e como a equipe lida com o medo
+6. Autorização para usar as fotos (a foto de atendimento com paciente menor de idade não foi usada no site)
+7. Tempo e técnica de escovação (orientação geral)
+8. Regras do CFO sobre publicidade e uso de avaliações; revisar com a clínica
+9. Logo em alta resolução (o arquivo tem 150 px)
+10. Registro de classe dos profissionais de fonoaudiologia (CREFONO) e fisioterapia (CREFITO) e se as duas áreas atuam na própria clínica
+11. Autorização dos clientes para usar as avaliações (usadas só com as iniciais) e regras do CFO sobre depoimentos
+12. Ao publicar: remover o selo de nota e a contagem de avaliações do código estruturado (avaliação da própria empresa não gera destaque no Google)
